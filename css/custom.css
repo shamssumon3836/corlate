@@ -747,78 +747,44 @@ ul {
 
 
 
-<section id="testimonials">
-    <div class="container">
-        <div class="elit text-center">
-            <h2>Testimonials</h2>
-            <p class="amet">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                
-            </div>
-        </div>
-    </div>
-</section>
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+  .navbar .nav-item:hover .nav-link{ color: #fff;  }
+  .navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+  .navbar .dropdown-menu.fade-up{ top:180%;  }
+  .navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+} 
 
 
-<div class="wrapper">
-    <div class="testimonial-carousel section-padding">
-        <div class="single-texti">
-            <div class="img-area">
-                <img src="images/team1.png">
-            </div>
-            <div class="img-text">
-                <h2>Shams Sumon</h2>
-                <h3>Software Engineer</h3>
-                <p>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </p>
-                <p>Very Professional and Honest. High Recumented</p>
-            </div>
-        </div>
+#header .navbar.navbar-expand-lg{
+    background-color: #151515 !important;
+}
 
-        <div class="single-texti">
-            <div class="img-area">
-                <img src="images/team1.png">
-            </div>
-            <div class="img-text">
-                <h2>Shams Sumon</h2>
-                <h3>Software Engineer</h3>
-                <p>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </p>
-                <p>Very Professional and Honest. High Recumented</p>
-            </div>
-        </div>
+.navbar-toggler-icon {
+    color: white;
+    border: 1px solid #423c3c;
+    border-radius: 4px;
+    height: 33px !important;
+    width: 42px !important;
+    padding-top: 5px;
+    transition-duration: .2s;
+}
 
-        <div class="single-texti">
-            <div class="img-area">
-                <img src="images/team1.png">
-            </div>
-            <div class="img-text">
-                <h2>Shams Sumon</h2>
-                <h3>Software Engineer</h3>
-                <p>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </p>
-                <p>Very Professional and Honest. High Recumented</p>
-            </div>
-        </div>
-    </div>
-</div>
+
+.navbar-toggler-icon:hover {
+    background-color: #333;
+}
+
+
+.fas.fa-chevron-down {
+    font-size: 10px;
+}
+
+
+
+
+
 
 
 
