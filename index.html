@@ -26,6 +26,8 @@
 
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 
+
+
 </head>
 <body>
 
@@ -55,8 +57,7 @@
                                     <i class="fa fa-search"></i>
                                 </form>
                             </div>
-					</div>
-
+						</div>
 				</div>
 			</div>
 		</div>
@@ -91,7 +92,59 @@
   </div> <!-- navbar-collapse.// -->
 	</div>
 </nav>
+<div id="slider-section">
+	  <div class="carousel" id="main-slider">
+    <ol class="carousel-indicators">
+      <li class="active" data-slide-to="0" data-target="#main-slider"></li>
+      <li data-slide-to="1" data-target="#main-slider"></li>
 
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active" id="slideshow" style="background-image: url(images/bg1.jpg)">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <div class="slide-content">
+                <h1>
+                  Help Finding Information Online
+                </h1>
+                <p>
+                  Every new computer that’s brought home from the store has an operating system installed onto it. 
+                </p>
+                <a class="btn btn-primary" id="about">ABOUT US</a><a class="btn btn-primary" id="register">REGISTRATION</a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item" id="slideshow" style="background-image: url(images/bg2.jpg)">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <div class="slide-content">
+                <h1>
+                  Help Finding Information Online
+                </h1>
+                <p>
+                  Every new computer that’s brought home from the store has an operating system installed onto it. 
+                </p>
+                <a class="btn btn-primary" id="about">ABOUT US</a><a class="btn btn-primary" id="register">REGISTRATION</a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
 </section>
 
 <section class="future">
@@ -381,62 +434,6 @@
 
 
 
-<section id="skill">
-	<div class="container">
-		<div class="elit text-center mt-5 pt-5 pb-5">
-			<h2 class="mill">Our Skills</h2>
-			<p class="amet">All users on MySpace will know that there are millions of people out there. Every<br>
-			day besides so many people joining this community.</p>
-		</div>
-
-		<div class="row">
-			<div class="col-sm-6">
-				<div class="people">
-					<h3>Graphic Design</h3>
-					<div id="bar1" class="barfiller">
-    					<div class="tipWrap">
-							<span class="tip"></span>
-	    				</div>
-	    				<span class="fill" data-percentage="85"></span>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="people">
-					<h3>CSS</h3>
-					<div id="bar2" class="barfiller">
-	    				<div class="tipWrap">
-							<span class="tip"></span>
-	    				</div>
-	    				<span class="fill" data-percentage="80"></span>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="people">
-					<h3>HTML</h3>
-					<div id="bar3" class="barfiller">
-	    				<div class="tipWrap">
-							<span class="tip"></span>
-	    				</div>
-	    				<span class="fill" data-percentage="95"></span>
-					</div>	
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="people">
-					<h3>Wordpress</h3>
-					<div id="bar4" class="barfiller">
-	    				<div class="tipWrap">
-							<span class="tip"></span>
-	    				</div>
-	    				<span class="fill" data-percentage="90"></span>
-					</div>	
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 
 
 <section id="inject">
@@ -817,8 +814,9 @@
 
 
 
-
-
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+<script  src="js/slider.js"></script>
 
 
 
